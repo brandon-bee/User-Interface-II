@@ -46,9 +46,18 @@ body{
   font-size: 1.6rem;
   color: #4f4f4f;
   line-height: 1.5;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 a{
   text-decoration: none;
+}
+header, footer {
+  background-color: beige;
+  height: 23vh;
+}
+button{
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 2rem;
 }
 
 /* Header styles */
@@ -77,7 +86,7 @@ nav a{
   justify-content: space-between;
 }
 .featured-project{
-  width: 50%;
+  width: 48%;
   margin: 1%;
 }
 .info{
@@ -104,3 +113,36 @@ h2{
 
 /* Showcase section styles */
 
+#showcase{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.showcase-project{
+  width: 23%;
+  margin: 0 1% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase-project img{
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+/* Footer styles */
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer button{
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 3% 0;
+  width: 85%;
+  margin-top: 2%;
+}
