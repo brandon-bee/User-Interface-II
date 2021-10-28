@@ -45,6 +45,7 @@ html {
 body{
   font-size: 1.6rem;
   color: #4f4f4f;
+  line-height: 1.5;
 }
 a{
   text-decoration: none;
@@ -54,13 +55,13 @@ a{
 
 h1{
   font-size: 6rem;
-  padding: 2% 2% 0;
+  padding: 0 2%;
 }
 nav{
   margin: 1% 4%;
   display: flex;
-  width: 40%;
-  height: 40px;
+  width: 35%;
+  height: 35px;
 }
 nav a{
   width: 25%;
@@ -70,4 +71,36 @@ nav a{
 }
 
 /* Featured section styles */
+
+#feature{
+  display: flex;
+  justify-content: space-between;
+}
+.featured-project{
+  width: 50%;
+  margin: 1%;
+}
+.info{
+  margin: 1%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+h2{
+  font-size: 3rem;
+}
+.info button{
+  width: 40%;
+  margin: 2% 0;
+  font-size: 2rem;
+  padding: 2% 0;
+}
+.info p{
+  font-size: 2rem;
+  width: 75%;
+  margin: 2% 0;
+}
+
+/* Showcase section styles */
 
