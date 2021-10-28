@@ -1,1 +1,164 @@
-/* Add CSS styling here */
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* General styles */
+
+body{
+  font-size: 1.6rem;
+  color: #4f4f4f;
+  line-height: 1.5;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+header, footer {
+  background-color: beige;
+  height: 23vh;
+}
+button{
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 2rem;
+}
+
+/* Header styles */
+
+h1{
+  font-size: 6rem;
+  padding: 0 2%;
+}
+nav{
+  margin: 1% 4%;
+  display: flex;
+  width: 35%;
+  height: 35px;
+}
+nav a{
+  border: 2px solid #000;
+  background-color: #fff;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Featured section styles */
+
+#feature{
+  display: flex;
+  justify-content: space-between;
+}
+.featured-project{
+  width: 48%;
+  margin: 1%;
+}
+.info{
+  margin: 1%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+h2{
+  font-size: 3rem;
+}
+.info button{
+  width: 40%;
+  margin: 2% 0;
+  font-size: 2rem;
+  padding: 2% 0;
+  background-color: #fff;
+  border: 2px solid black;
+}
+.info p{
+  font-size: 2rem;
+  width: 75%;
+  margin: 2% 0;
+}
+
+/* Showcase section styles */
+
+#showcase{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.showcase-project{
+  width: 23%;
+  margin: 0 1% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase-project img{
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+/* Footer styles */
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer button{
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 3% 0;
+  width: 85%;
+  margin-top: 2%;
+}
+.fab{
+  font-size: 3rem;
+  margin-top: 2%;
+}
+#copyright{
+  font-size: 1.2rem;
+}
+
+/* Animation styles */
+button:hover, nav a:hover{
+  background-color: #000;
+  color: #fff;
+}
