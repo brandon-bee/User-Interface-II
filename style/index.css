@@ -162,3 +162,17 @@ button:hover, nav a:hover{
   background-color: #000;
   color: #fff;
 }
+
+/* Responsive styles */
+
+/* Tablet view - 800 pixels */
+
+@media(max-width: 800 pixels){
+
+}
+
+/* Mobile view - 500 pixels */
+
+@media(max-width: 500 pixels){
+  
+}
