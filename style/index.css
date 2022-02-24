@@ -34,6 +34,7 @@ table {
   padding: 0;
   margin: 0;
   max-width: 100%;
+  /* border: 1px solid red; */
 }
 html {
   font-size: 62.5%;
@@ -161,4 +162,82 @@ footer button{
 button:hover, nav a:hover{
   background-color: #000;
   color: #fff;
+}
+
+/* Responsive styles */
+
+/* Tablet view - 800 pixels */
+
+@media (max-width: 800px){
+  /* Featured section styles */
+  #feature{
+    flex-direction: column;
+  }
+  .featured-project{
+    width: 98%;
+  }
+  .info{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .info a{
+    width: 25%;
+  }
+  .info button{
+    width: 100%;
+  }
+}
+
+/* Mobile view - 500 pixels */
+
+@media (max-width: 500px){
+  /* Header styles */
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 32vh;
+  }
+  h1{
+    text-align: center;
+    font-size: 5rem;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav a{
+    width: 100%;
+  }
+
+  /* Featured section styles */
+  #feature{
+    align-items: center;
+  }
+  .featured-project{
+    width: 90%;
+  }
+  .info{
+    width: 90%;
+  }
+  .info a{
+    width: 40%;
+  }
+  .info p{
+    width: 90%;
+  }
+
+  /* Showcase section styles */
+  #showcase{
+    justify-content: space-evenly;
+    margin-top: 4%;
+  }
+  .showcase-project{
+    width: 44%;
+  }
+
+  /* Footer styles */
+  footer{
+    margin-top: 3%;
+  }
 }
